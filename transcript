@@ -1,0 +1,36 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# OpenFile C:/Users/Mikeysan/Documents/CS147/prj3/barrel_shifter.v
+project open C:/Users/Mikeysan/Documents/CS147/prj3/prj_03
+# Loading project prj_03
+vsim work.HALF_ADDER_TB
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui C:\Users\Mikeysan\Documents\CS147\prj3\barrel_shifter.v 
+# Start time: 07:30:23 on Nov 08,2019
+# Loading work.HALF_ADDER_TB
+# Loading work.HALF_ADDER
+add wave -position insertpoint  \
+sim:/HALF_ADDER_TB/A \
+sim:/HALF_ADDER_TB/B \
+sim:/HALF_ADDER_TB/Y \
+sim:/HALF_ADDER_TB/C
+run -all
+quit
+# End time: 07:32:38 on Nov 08,2019, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 0
